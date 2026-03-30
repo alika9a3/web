@@ -1,0 +1,173 @@
+body{
+    margin: 0px;
+    background-color:aliceblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    background-color: lightpink;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    justify-content: space-between;
+    color:rgb(112, 79, 36);
+    z-index: 999;
+}
+.banner{
+font-family: "canal";
+}
+    header img{
+    height: 100px;
+    justify-content: left;
+}
+section.home{
+    height:800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url("img1 copy.png");
+    font-size: large;
+}
+section.project{
+    height:800px;
+    text-align:center;
+    background-color:rgb(236, 215, 246);
+    padding:5px;
+    border-radius:20px;
+    margin: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:60px;
+    font-size: medium;
+}
+.deskProject{
+    justify-content: center;
+    width: 100%;
+    padding: 200px;
+}
+section.howto{
+    height:800px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color:navajowhite;
+    font-size: small;
+}
+.howto img{
+    height:500px;
+    width: 800px;
+    
+}
+.deskHowto{
+    display: flex;
+    width:80%;
+    margin: auto;
+    padding: 50px 50px;
+}
+section.profile{
+    height:800px;
+    text-align:center;
+    background-color: bisque;
+    
+}
+.imgProfile img{
+    width: 70%;
+    margin:auto;
+    box-shadow: 3px 7px 7px 7px;
+    color: rgb(182, 193, 255);
+}
+
+.kotakBiotek{
+    width:60%;
+    margin-left:70px;
+    padding-top:200px;
+}
+.namaBiotek{
+    font-size:70px;
+    color:rgb(255, 255, 255);
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.deskBiotek{
+    color:#ffffff;
+    font-size:20px;
+    margin: 100px;
+}
+section.project img{
+    height: 300px;
+}
+.deskProject{
+    width:60%;
+    margin: auto;
+    padding: 60px 20px;
+}
+header{
+    display:flex;
+    height: 100px;
+    background-color: rgb(247, 193, 214);
+    padding: 5px;
+    border-radius: 10px 10px;
+    box-shadow:0px 0px 5px;
+}
+nav a, nav i{
+    text-decoration: dotted;
+    color:hotpink;
+    padding: 10px 15px;
+    font-size: 30px;
+    color:rgb(255, 35, 164);
+    transition: 1s;
+    border-radius: 5px;
+    }
+
+nav a:hover{
+    color:rgb(217, 46, 174);
+    border-radius: 20px 0px 20px 0px violet;
+    box-shadow: 5px 5px 5px -2px rgb(255, 255, 181);
+    transition:0.5s;
+    padding: 10px cyan;
+    background-color:rgb(202, 231, 255);
+}
+nav{
+    margin-top: 5px;
+    padding:20px;
+}
+.cardProfile{
+    padding: 15px;
+    width: 300px;
+    height:55%;
+    margin: auto;
+    text-align: center;
+    background-color:rgb(255, 204, 248);
+    box-shadow: 5px 5px 5px -2px ;
+    border-radius: 20px 20px 20px 20px;
+    color: rgb(182, 236, 255);
+    & h2 {
+        color: black;
+    }
+    & h3{
+        color: rgb(106, 48, 102);
+    }
+ }
+.medsos{
+left: 0; 
+bottom: 0; 
+width: 100%; 
+text-align: center; 
+height:40px; 
+padding-top: 5%;
+padding-bottom: 5%;
+}
+.medsos a{
+text-decoration: none; 
+padding: 10px 10px; 
+font-size: 24px;
+color:black;
+}
