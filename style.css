@@ -57,7 +57,7 @@ section.howto{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 20px;
-    background-color:navajowhite;
+    background-color:rgb(255, 215, 248);
     font-size: small;
 }
 .howto img{
@@ -75,6 +75,7 @@ section.profile{
     height:800px;
     text-align:center;
     background-color: bisque;
+    padding-top: 100px;
     
 }
 .imgProfile img{
